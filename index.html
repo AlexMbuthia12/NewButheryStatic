@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butchery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+
+</head>
+<body class="bg-gray-100">
+  <header class="absolute top-0 left-0 w-full p-5 text-white text-xl font-semibold flex items-center justify-between z-10">
+    <img src="logo.png" alt="Butchery Logo" class="h-12">
+    <nav class="flex space-x-5 px-2 py-2 ">
+        <a href="index.html" class=" hover:text-yellow-100 hover:no-underline hover:scale-105  p-1 bg-red-600 bg-opacity-50 rounded-lg">Home</a>
+        <a href="beef.html" class=" hover:text-yellow-100 hover:no-underline hover:scale-105  p-1 bg-red-600 bg-opacity-50 rounded-lg">Beef</a>
+        <a href="chicken.html" class="hover:text-yellow-100 hover:no-underline hover:scale-105  p-1 bg-red-600 bg-opacity-50 rounded-lg">Chicken</a>
+        <a href="other.html" class="hover:text-yellow-100 hover:no-underline hover:scale-105  p-1 bg-red-600 bg-opacity-50 rounded-lg">Other</a>
+    </nav>
+</header>
+<!-- <section class="relative h-screen w-full flex items-center justify-center bg-gray-300 text-gray-700 text-xl overflow-hidden"> -->
+  <!-- Carousel Placeholder -->
+<section class="relative h-screen w-full overflow-hidden">
+    <div id="carouselExampleIndicators" class="carousel slide w-full h-full" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner h-screen">
+          <div class="carousel-item active h-full">
+            <img class="d-block w-100 h-full object-cover" src="Images/img3.jpeg" alt="First slide">
+          </div>
+          <div class="carousel-item h-full">
+            <img class="d-block w-100 h-full object-cover" src="Images/img4.jpeg" alt="Second slide">
+          </div>
+          <div class="carousel-item h-full">
+            <img class="d-block w-100 h-full object-cover" src="Images/img5.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item h-full">
+            <img class="d-block w-100 h-full object-cover" src="Images/img7.jpg" alt="forth slide">
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</section>
+    
+<section class="p-6">
+        <h2 class="text-xl font-semibold text-gray-700 mb-4">Meat Categories</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-14 p-6">
+            <!-- Beef -->
+            <div class="bg-white p-5 rounded-lg shadow-lg">
+                <img src="Images/beef.jpg" alt="Beef" class="w-full h-64 object-cover rounded-md">
+                <a href="beef.html" class="block text-lg font-semibold text-center mt-3 bg-yellow-100 text-yellow-800 py-2 px-4 rounded-full shadow-md w-fit mx-auto transition duration-300 hover:shadow-lg hover:scale-105 hover:bg-yellow-200 hover:text-yellow-800 hover:no-underline active:scale-95 active:shadow-sm">Beef</a>
+<!-- <p class="text-gray-600">Price: $12/kg</p> -->
+              <a href="https://wa.me/+254750075992" class="block mt-3 text-center text-green-500 font-semibold text-lg  gap-2 hover:text-green-700 hover:no-underline hover:scale-105">
+                <i class="fa-brands fa-whatsapp text-2xl"></i> WhatsApp Order
+            </a>
+            </div>
+            
+            <!-- Chicken -->
+            <div class="bg-white p-5 rounded-lg shadow-lg items-center">
+                <img src="Images/chicken.jpg" alt="Chicken" class="w-full h-64 object-cover rounded-md">
+                <a href="beef.html" class="block text-lg font-semibold text-center mt-3 bg-yellow-100 text-yellow-800 py-2 px-4 rounded-full shadow-md w-fit mx-auto transition duration-300 hover:shadow-lg hover:scale-105 hover:bg-yellow-200 hover:text-yellow-800 hover:no-underline active:scale-95 active:shadow-sm">Chicken</a>
+<!-- <p class="text-gray-600">Price: $12/kg</p> -->
+              <a href="https://wa.me/+254750075992" class="block mt-3 text-center text-green-500 font-semibold text-lg  gap-2 hover:text-green-700 hover:no-underline hover:scale-105">
+                <i class="fa-brands fa-whatsapp text-2xl"></i> WhatsApp Order
+            </a>
+            </div>
+            
+            <!-- Lamb -->
+            <div class="bg-white p-5 rounded-lg shadow-lg">
+                <img src="Images/lamb.jpg" alt="Lamb" class="w-full h-64 object-cover rounded-md">
+                <a href="other.html" class="block text-lg font-semibold text-center mt-3 bg-yellow-100 text-yellow-800 py-2 px-4 rounded-full shadow-md w-fit mx-auto transition duration-300 hover:shadow-lg hover:scale-105 hover:bg-yellow-200 hover:text-yellow-800 hover:no-underline active:scale-95 active:shadow-sm">Other</a>
+<!-- <p class="text-gray-600">Price: $12/kg</p> -->
+              <a href="https://wa.me/+254750075992" class="block mt-3 text-center text-green-500 font-semibold text-lg  gap-2 hover:text-green-700 hover:no-underline hover:scale-105">
+                <i class="fa-brands fa-whatsapp text-2xl"></i> WhatsApp Order
+            </a>
+            
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="container mx-auto flex flex-col md:flex-row justify-between items-start px-6">
+          
+          <!-- Left Side: Contact Information -->
+          <div class="text-left md:w-1/2">
+              <h3 class="text-lg font-semibold text-yellow-400">Our Contacts</h3>
+              <p class="mt-2">📍 <strong>Location:</strong> Building & Floor, The City</p>
+              <p class="mt-2">📞 <strong>Call Us:</strong> +254750075992 | +254750075992</p>
+              <p class="mt-2">📧 <strong>Email:</strong> 
+                  <a href="mailto:info@beststeakbutchery.co.ke" class="text-yellow-400 hover:underline">
+                      info@beststeakbutchery.co.ke
+                  </a>
+              </p>
+          </div>
+  
+          <!-- Right Side: Social Media Links -->
+          <div class="text-right md:w-1/2">
+              <h3 class="text-lg font-semibold text-yellow-400">Follow Us</h3>
+              <div class="flex justify-start md:justify-end space-x-6 mt-3">
+                  <!-- WhatsApp -->
+                  <a href="https://wa.me/+254707700511" target="_blank" class="text-green-400 text-2xl hover:text-green-500">
+                      <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <!-- Instagram -->
+                  <a href="https://instagram.com/yourprofile" target="_blank" class="text-pink-400 text-2xl hover:text-pink-500">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <!-- X (Twitter) -->
+                  <a href="https://twitter.com/yourprofile" target="_blank" class="text-blue-400 text-2xl hover:text-blue-500">
+                      <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+              </div>
+          </div>
+  
+      </div>
+  </footer>
+  
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
